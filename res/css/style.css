@@ -11,6 +11,10 @@
     --escape-font:pressstart;
     --escape-bgcol:black;
     --escape-color:white;
+    --red-color:red;
+}
+.red{
+    color: var(--red-color);
 }
 header{
     top: 0;
