@@ -5,13 +5,15 @@
     --hover_color:orange;
     --scrolbar-track:#f28500;
     --morse-size:35px;
-    --footer-color:gray;
+    --footer-color:#B6E388;
     --active-color:red;
     --active-font:Arial;
     --escape-font:pressstart;
     --escape-bgcol:black;
     --escape-color:white;
     --red-color:red;
+    --bg-color:#E1FFB1;
+    --h-bgcolor:#FCFFB2;
 }
 .red{
     color: var(--red-color);
@@ -19,6 +21,8 @@
 header{
     top: 0;
     position: sticky;
+    background-color: var(--h-bgcolor);
+    font-family: var(--header_font);
 }
 footer{
     margin-top:50px;
@@ -26,7 +30,7 @@ footer{
     height: 300px;
 }
 body{
-    background-color: bisque;
+    background-color: var(--bg-color);
     font-family: var(--body_font);
 }
 img{
@@ -36,10 +40,7 @@ img{
 .right{
     text-align: right;
 }
-header{
-    background-color: white;
-    font-family: var(--header_font);
-}
+
 a{
     color: black;
     text-decoration: none;
